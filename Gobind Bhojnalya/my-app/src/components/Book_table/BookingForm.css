@@ -1,0 +1,81 @@
+/* BookingForm.css */
+.outer{
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    min-height:150vh;
+}
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8dd92;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #333; /* Black border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #ffc107; /* Yellow border on focus */
+  }
+  
+  .submit-button {
+    background-color: #000; /* Black background */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #333; /* Darker black on hover */
+    color: #ffd861;
+  }
+  .buttona{
+    display: flex;
+    margin-top:2.5%;
+    gap: 3%;
+  }
+  .update-button{
+    color: #fff;
+  }
+  .delete-button{
+    color: azure;
+  }
+  .update-button:hover{
+    background-color: #333;
+    color: #ffd861;
+  }
+  .delete-button:hover{
+    background-color: #333;
+    color: #ffd861;
+  }
+  .entries{
+    margin-top:15%;
+    color: aliceblue;
+    border:1px solid #ffd861;
+    padding: 3px;
+    transform: scale(1.35);
+    margin-bottom:8%;
+    text-align: center;
+  }
+  .bookinglist{
+    color: #fff;
+    font-size: 3em;
+    margin-top:3%;
+  }
